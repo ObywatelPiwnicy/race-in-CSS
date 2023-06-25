@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: black;
+}
+
+
+.autodrom{
+    
+    height: 97vh;
+    background: url(img/truck.png) no-repeat,
+    url(img/runner.png) no-repeat,
+    url(img/car.png) no-repeat,
+    url(img/Motorcycle.png) no-repeat,
+    url(img/bicycle.png) no-repeat,
+    url(img/road.jpg) repeat;
+
+    background-size: auto 16%, auto 4%, auto 12%, auto 5%,
+    auto 4%, auto 100%;
+
+    background-position: 
+    top 5.5% left 5%,
+    top 32% left 5%, 
+    top 40% left 5%,
+    top 58% left -29%, 
+    top 72% left 5%,
+    top 0% left 0%;
+
+    transition: background-position 10s ease;
+}
+
+.autodrom:hover{
+    background-position: 
+    top 8% left 60%,
+    top 32% left 20%, 
+    top 47% left 99%,
+    top 45% left 158%, 
+    top 68% left 31%,
+    top 0% left 2400%
+    
+}
+
+.footer{
+    height: 3vh;
+    color: white;
+    font-size: 80%;
+    text-align: center;
+    background-color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: block;
+}
